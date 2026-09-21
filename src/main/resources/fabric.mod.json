@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "totem-alt",
+	"version": "${version}",
+	"name": "Totem Alt",
+	"description": "Tekan Alt untuk memasang Totem of Undying ke tangan kiri (offhand). Hanya berfungsi jika ada totem di inventory/hotbar.",
+	"authors": [
+		"Drizz"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/totem-alt/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.totemalt.TotemAltClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
